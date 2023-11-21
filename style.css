@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#nevbarSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #328873;
+    color: white;
+    padding: 0 20px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+#textDiv {
+    color: #00D916;
+}
+
+/*banner section start*/
+
+#bannerSection {
+    background-image: url(./business-people-holding-word-careers\ 1.png);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/*about sectipon start*/
+#aboutText {
+    color: #00D916;
+
+}
+
+#sectionDiv>h1 {
+    font-size: 35px;
+}
+
+#sectionDiv>p {
+    font-size: 30px;
+}
+
+#aboutSectionText {
+    background-color: #727272;
+    display: flex;
+    gap: 5%;
+    padding: 12px;
+}
+
+#sectionDiv>button {
+    padding: 10px 30px;
+    font-size: 24px;
+    background-color: #00D916;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 dimgrey;
+}
+
+#aboutSectionImage>img {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+
+}
+
+/* shop sectipon start*/
+#shopMainDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    align-items: center;
+    padding: 10px;
+}
+
+.shopSectionDiv>img {
+    width: 400px;
+
+}
+
+.shopSectionDiv {
+    background-color: #00D916;
+
+}
+
+.shopSectionDivText>button {
+
+    background-color: #0d0e0d;
+    color: white;
+    padding: 10px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 dimgrey;
+    align-items: center;
+
+
+}
+
+.shopSectionDivText>h4 {
+    font-size: 20px;
+
+}
+
+.shopSectionDivText {
+    padding: 20px;
+}
+
+/*button section start*/
+#buttonSection{
+    padding: 20px 0; 
+}
+#buttonSection>button {
+    padding: 10px 30px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 dimgrey;
+    align-items: center;
+    background-color: #00D916;
+}
+
+#buttonSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*contact section start*/
+
+
+#contactMainDiv {
+    display: flex;
+    gap: 20px;
+    padding: 60px 40px;
+    background-color: #727272;
+    align-items: center;
+    justify-content: space-between;
+}
+
+from {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+   
+
+}
+
+input {
+    height: 40px;
+    width: 300px;
+}
+
+
+#contactSectionFrom>button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 dimgrey;
+    align-items: center;
+    background-color: #00D916;
+
+}
+
+/*footer section start*/
+
+#footerSection{
+    background-color: black;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+  padding: 5px ;
+
+}
+#footerSection>h4{
+    text-align: center;
+}
+
